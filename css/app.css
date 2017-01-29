@@ -355,6 +355,19 @@ section[name="content"].organisers li a i {
 	font-size: 20px;
 }
 
+section[name="content"].prizes hr {
+	border-color: #ffffff;
+}
+
+section[name="content"].prizes h2 {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+section[name="content"].prizes span {
+	background-color: #ffffff;
+}
+
 section[name="content"].faq .qu {
 	padding-bottom: 5px;
 	color: #219ce8;
