@@ -322,8 +322,14 @@ section[name="content"].organisers .rhomb {
 }
 
 section[name="content"].organisers img {
-	width: 100px;
 	border-radius: 50%;
+	margin-bottom: 10px;
+	width: 100px;
+}
+
+section[name="content"].organisers img.mlh-2 {
+	width: 90px;
+	border-radius: 0;
 	margin-bottom: 10px;
 }
 
@@ -362,6 +368,24 @@ section[name="content"].organisers li {
 section[name="content"].organisers li a i {
 	color: #ffffff !important;
 	font-size: 20px;
+}
+
+section[name="content"].schedule thead {
+	background-color: #219ce8;
+	color: #ffffff;
+}
+
+section[name="content"].schedule thead td {
+	text-align: center;
+}
+
+section[name="content"].schedule tr td {
+	padding: 10px 40px;
+	font-size: 14px;
+}
+
+section[name="content"].schedule table tbody tr:nth-child(even) {
+	background-color: #f1faff;
 }
 
 section[name="content"].prizes hr {
