@@ -165,6 +165,15 @@ section[name="landing"] .box .box-2 {
 	right: -30px;
 }
 
+section[name="landing"] p.fineprint {
+	padding: 0;
+	margin: 0;
+	margin-bottom: -24px;
+	position: relative;
+	left: 30px;
+	top: 12px;
+}
+
 section[name="content"] {
 	margin: 110px 0;
 	margin-bottom: 80px;
