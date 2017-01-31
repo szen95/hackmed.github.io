@@ -484,3 +484,20 @@ section[name="footer"] li a:hover {
 	border-bottom: 1px solid #474747;
 	transition: 0.3s;
 }
+
+@media only screen and (max-width: 64.0625em) {
+	
+	section[name="navigation"] .logo {
+		left: 0;
+		top: -10px !important;
+	}
+	
+	section[name="landing"].mobile .logo {
+		position: relative;
+		margin: auto;
+		top: -90px;
+		left: 0;
+		margin-bottom: -90px;
+	}
+		
+}
