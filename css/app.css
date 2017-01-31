@@ -287,10 +287,10 @@ section[name="content"].mentors, section[name="content"].organisers, section[nam
 }
 
 section[name="content"].mentors .infinity {
-	margin-bottom: -60px;
+	margin-bottom: -100px;
 	position: relative;
-	top: -160px;
-	left: -240px;
+	top: -270px;
+	left: -10px;
 }
 
 section[name="content"].about img {
@@ -306,12 +306,13 @@ section[name="content"].about .rhomb {
 	opacity: 0.3;
 }
 
-section[name="content"].organisers .large-9 {
+section[name="content"].organisers .large-9, section[name="content"].mentors .large-9 {
 	text-align: center;
 }
 
-section[name="content"].organisers .large-4 {
+section[name="content"].organisers .large-4, section[name="content"].mentors .large-4 {
 	padding: 0 20px;
+	text-align: center;
 }
 
 section[name="content"].organisers .rhomb {
@@ -321,7 +322,7 @@ section[name="content"].organisers .rhomb {
 	float: right;
 }
 
-section[name="content"].organisers img {
+section[name="content"].organisers img, section[name="content"].mentors img {
 	border-radius: 50%;
 	margin-bottom: 10px;
 	width: 100px;
@@ -333,12 +334,12 @@ section[name="content"].organisers img.mlh-2 {
 	margin-bottom: 10px;
 }
 
-section[name="content"].organisers .name {
+section[name="content"].organisers .name, section[name="content"].mentors .name {
 	font-weight: 400;
 	padding: 0;
 }
 
-section[name="content"].organisers .role {
+section[name="content"].organisers .role, section[name="content"].mentors .role {
 	font-weight: 700;
 	padding: 3px 10px;
 	background-color: #ffffff;
@@ -349,23 +350,24 @@ section[name="content"].organisers .role {
 	margin-top: 10px;
 }
 
-section[name="content"].organisers .desc {
+section[name="content"].organisers .desc, section[name="content"].mentors .desc {
 	font-weight: 400;
 	font-size: 12px;
 }
 
-section[name="content"].organisers ul {
+section[name="content"].organisers ul, section[name="content"].mentors ul {
 	padding: 0;
 	margin: 0;
+	padding-bottom: 20px;
 }
 
-section[name="content"].organisers li {
+section[name="content"].organisers li, section[name="content"].mentors li {
 	list-style: none;
 	display: inline-block;
 	padding: 0 10px;
 }
 
-section[name="content"].organisers li a i {
+section[name="content"].organisers li a i, section[name="content"].mentors li a i {
 	color: #ffffff !important;
 	font-size: 20px;
 }
