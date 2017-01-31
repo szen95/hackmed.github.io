@@ -490,8 +490,8 @@ section[name="footer"] li a:hover {
 @media only screen and (max-width: 64.0625em) {
 	
 	section[name="navigation"] .logo {
-		left: 0;
-		top: -10px !important;
+		left: -10px;
+		top: -12px !important;
 	}
 	
 	section[name="landing"].mobile .logo {
