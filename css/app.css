@@ -501,5 +501,9 @@ section[name="footer"] li a:hover {
 		left: 0;
 		margin-bottom: -90px;
 	}
+	
+	section[name="landing"] .box .apply-btn {
+		margin-left: 0;
+	}
 		
 }
