@@ -293,6 +293,14 @@ section[name="content"].mentors .infinity {
 	left: -10px;
 }
 
+section[name="content"].sponsors .logos {
+	margin-bottom: -40px;
+}
+
+section[name="content"].sponsors .logos .row {
+	padding-bottom: 40px;
+}
+
 section[name="content"].about img {
 	position: relative;
 	top: 20px;
