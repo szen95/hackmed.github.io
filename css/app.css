@@ -13,12 +13,20 @@ span.hm {
 }
 
 hr {
-	max-width: 900px;
+	max-width: 1100px;
 	border: 1px solid #219ce8;
 }
 
 a {
 	color: #219ce8 !important;
+}
+
+.pad {
+	padding:0% 10% 0% 10%;
+}
+
+.pad-5 {
+	padding:0% 5% 0% 5%;
 }
 
 #mlh-trust-badge {
@@ -97,28 +105,32 @@ section[name="landing"] h1 {
 	background-color: #ffffff;
 	font-size: 30px;
 	display: inline;
-	padding: 5px 25px;
+	padding: 5px 10px;
 	line-height: 55px;
 	position: relative;
-	left: -100px;
+	left: -50px;
+	max-width: 590px;
+	white-space: pre-wrap; 
+	width: 200%;
 }
 
 section[name="landing"] .box p {
 	color: #ffffff;
 	opacity: 0.8;
-	font-size: 15px;
+	font-size: 18px;
 	padding: 20px 30px;
 	margin-bottom: 20px;
 }
 
 section[name="landing"] .box .photo {
 	width: 400px;
-	margin-bottom: -400px;
+	/*margin-bottom: -400px;*/
 	float: right;
 	position: relative;
-	right: -40px;
-	top: -180px;
+	right: 90px;
+	top: 40px;
 	z-index: 10;
+	max-width: 450px
 }
 
 section[name="landing"] .box .apply-btn {
@@ -132,7 +144,7 @@ section[name="landing"] .box .apply-btn {
 	border-radius: 0;
 	transition: 0.5s;
 	border: 3px solid #219ce8;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 section[name="landing"] .box .apply-btn:hover {
@@ -142,27 +154,29 @@ section[name="landing"] .box .apply-btn:hover {
 }
 
 section[name="landing"] .box .box-1 {
-	width: 300px;
-	height: 200px;
-	margin-bottom: -200px;
+	width: 100%;
+	height: 300px;
+	/*margin-bottom: -200px;*/
 	background-color: #219ce8;
 	border: 4px solid #ffffff;
 	float: right;
 	position: relative;
-	top: -370px;
-	right: 40px;
+	top: -40px;
+	right: 30px;
+	max-width: 300px;
 }
 
 section[name="landing"] .box .box-2 {
-	width:160px;
-	height: 160px;
-	margin-bottom: -160px;
+	width:75%;
+	height: 200px;
+	/*margin-bottom: -160px;*/
 	background-color: #219ce8;
 	border: 4px solid #ffffff;
 	float: right;
 	position: relative;
-	top: -250px;
-	right: -30px;
+	top: 70px;
+	right: -110px;
+	max-width: 200px;
 }
 
 section[name="landing"] p.fineprint {
@@ -180,7 +194,7 @@ section[name="content"] {
 }
 
 section[name="content"] .row {
-	max-width: 900px;
+	max-width: 1100px;
 }
 
 section[name="content"] h1 {
@@ -297,6 +311,10 @@ section[name="content"].sponsors .logos {
 	margin-bottom: -40px;
 }
 
+section[name="content"].sponsors .logos .large-4 {
+	max-width: 400px;
+}
+
 section[name="content"].sponsors .logos .row {
 	padding-bottom: 40px;
 }
@@ -337,9 +355,11 @@ section[name="content"].organisers img, section[name="content"].mentors img {
 }
 
 section[name="content"].organisers img.mlh-2 {
-	width: 90px;
+	width: 70%;
 	border-radius: 0;
 	margin-bottom: 10px;
+	max-width: 130px;
+	min-width: 90px;
 }
 
 section[name="content"].organisers .name, section[name="content"].mentors .name {
@@ -356,11 +376,17 @@ section[name="content"].organisers .role, section[name="content"].mentors .role 
 	border-radius: 3px;
 	margin-bottom: 11px;
 	margin-top: 10px;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 section[name="content"].organisers .desc, section[name="content"].mentors .desc {
 	font-weight: 400;
 	font-size: 12px;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 section[name="content"].organisers ul, section[name="content"].mentors ul {
