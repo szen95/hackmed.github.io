@@ -1,0 +1,574 @@
+body {
+	font-family: 'Overpass', sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+span.hm {
+	font-weight: 600;
+	color: #219ce8;
+}
+
+hr {
+	max-width: 1100px;
+	border: 1px solid #219ce8;
+}
+
+a {
+	color: #219ce8 !important;
+}
+
+span {
+	padding:1%;
+	border-radius: 3px;
+}
+
+.pad {
+	padding:0% 10% 0% 10%;
+}
+
+.pad-5 {
+	padding:0% 5% 0% 5%;
+}
+
+
+#mlh-trust-badge {
+	position: fixed;
+	top: 0;
+	right: 50px;
+	height: 80px;
+}
+
+#menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	z-index: 100;
+	display: none;
+	opacity: 0.97;
+}
+
+#menu:hover{
+	opacity: 1;
+}
+
+#menu .logo {
+	width: 60px;
+	position: absolute;
+	top: 5px;
+}
+
+section[name="navigation"] {
+	padding-top: 15px;
+}
+
+section[name="navigation"] ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+
+section[name="navigation"] li {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 25px;
+}
+
+section[name="navigation"] li a {
+	font-weight: 700;
+	font-size: 15px;
+	color: #219ce8;
+}
+
+section[name="landing"] {
+	margin-top: 100px;
+}
+
+section[name="landing"] .logo {
+	width: 140px;
+	position: relative;
+	top: -80px;
+	left: -60px;
+	margin-bottom: -40px;
+	margin-right: 100%;
+}
+
+section[name="landing"] .box {
+	background-color: #219ce8;
+	max-width: 900px;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+section[name="landing"] h1 {
+	font-family: 'Hind', sans-serif;
+	background-color: #ffffff;
+	font-size: 30px;
+	display: inline;
+	padding: 5px 10px;
+	line-height: 55px;
+	position: relative;
+	left: -50px;
+	max-width: 590px;
+	white-space: pre-wrap; 
+	width: 200%;
+}
+
+section[name="landing"] .box p {
+	color: #ffffff;
+	opacity: 0.8;
+	font-size: 18px;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+}
+
+section[name="landing"] .box .photo {
+	width: 400px;
+	/*margin-bottom: -400px;*/
+	float: right;
+	position: relative;
+	right: 90px;
+	top: 40px;
+	z-index: 10;
+	max-width: 450px
+}
+
+section[name="landing"] .box .apply-btn {
+	margin-left: 30px;
+	margin-bottom: 20px;
+	padding: 15px 30px;
+	background-color: #ffffff;
+	display: inline;
+	font-weight: 700;
+	color: #219ce8;
+	border-radius: 0;
+	transition: 0.5s;
+	border: 3px solid #219ce8;
+	font-size: 20px;
+}
+
+section[name="landing"] .box .apply-btn:hover {
+	transition: 0.5s;
+	border: 3px solid #ffffff;
+	cursor: pointer;
+}
+
+section[name="landing"] .box .box-1 {
+	width: 100%;
+	height: 300px;
+	/*margin-bottom: -200px;*/
+	background-color: #219ce8;
+	border: 4px solid #ffffff;
+	float: right;
+	position: relative;
+	top: -40px;
+	right: 30px;
+	max-width: 300px;
+}
+
+section[name="landing"] .box .box-2 {
+	width:75%;
+	height: 200px;
+	/*margin-bottom: -160px;*/
+	background-color: #219ce8;
+	border: 4px solid #ffffff;
+	float: right;
+	position: relative;
+	top: 70px;
+	right: -110px;
+	max-width: 200px;
+}
+
+section[name="landing"] p.fineprint {
+	padding: 0;
+	margin: 0;
+	margin-bottom: -24px;
+	position: relative;
+	left: 30px;
+	top: 12px;
+}
+
+section[name="content"] {
+	margin: 110px 0;
+	margin-bottom: 80px;
+}
+
+section[name="content"] .row {
+	max-width: 1100px;
+}
+
+section[name="content"] h1 {
+	font-family: 'Hind', sans-serif;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+section[name="content"] p {
+	font-size: 15px;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+
+section[name="content"] small {
+	font-size: 13px;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+
+.rhomb {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 80px;
+  height: 80px;
+  margin: 3px 0 0 30px;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #219ce8;
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
+  -webkit-transform-origin: 0 100% 0deg;
+  transform-origin: 0 100% 0deg;
+  margin-bottom: -80px;
+}
+
+section[name="content"].mentors, section[name="content"].organisers, section[name="content"].prizes {
+	background-color: #219ce8;
+	padding: 110px 0 80px 0;
+	color: #ffffff;
+}
+
+.infinity {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 212px;
+  height: 100px;
+  position: relative;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+.infinity::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border: 20px solid #ffffff;
+  -webkit-border-radius: 50px 50px 0;
+  border-radius: 50px 50px 0;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
+}
+
+.infinity::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  border: 20px solid #ffffff;
+  -webkit-border-radius: 50px 50px 50px 0;
+  border-radius: 50px 50px 50px 0;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  -webkit-transform: rotateZ(45deg)   ;
+  transform: rotateZ(45deg)   ;
+}
+
+section[name="content"].mentors .infinity {
+	margin-bottom: -100px;
+	position: relative;
+	top: -270px;
+	left: -10px;
+}
+
+section[name="content"].sponsors .logos {
+	margin-bottom: -40px;
+}
+
+section[name="content"].sponsors .logos .large-4 {
+	max-width: 400px;
+}
+
+section[name="content"].sponsors .logos .row {
+	padding-bottom: 40px;
+}
+
+section[name="content"].about img {
+	position: relative;
+	top: 20px;
+}
+
+section[name="content"].about .rhomb {
+	position: relative;
+	top: -40px;
+	left: 45px;
+	z-index: -10;
+	opacity: 0.3;
+}
+
+section[name="content"].organisers .large-9, section[name="content"].mentors .large-9 {
+	text-align: center;
+}
+
+section[name="content"].organisers .large-4, section[name="content"].mentors .large-4 {
+	padding: 0 20px;
+	text-align: center;
+}
+
+section[name="content"].organisers .rhomb {
+	background: #ffffff;
+	position: relative;
+	top: -130px;
+	float: right;
+}
+
+section[name="content"].organisers img, section[name="content"].mentors img {
+	border-radius: 50%;
+	margin-bottom: 10px;
+	width: 100px;
+}
+
+section[name="content"].organisers img.mlh-2 {
+	width: 70%;
+	border-radius: 0;
+	margin-bottom: 10px;
+	max-width: 130px;
+	min-width: 90px;
+}
+
+section[name="content"].organisers .name, section[name="content"].mentors .name {
+	font-weight: 400;
+	padding: 0;
+}
+
+section[name="content"].organisers .role, section[name="content"].mentors .role {
+	font-weight: 700;
+	padding: 3px 10px;
+	background-color: #ffffff;
+	font-size: 15px;
+	color: #219ce8;
+	border-radius: 3px;
+	margin-bottom: 11px;
+	margin-top: 10px;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section[name="content"].organisers .desc, section[name="content"].mentors .desc {
+	font-weight: 400;
+	font-size: 12px;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section[name="content"].organisers ul, section[name="content"].mentors ul {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+section[name="content"].organisers li, section[name="content"].mentors li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+section[name="content"].organisers li a i, section[name="content"].mentors li a i {
+	color: #ffffff !important;
+	font-size: 20px;
+}
+
+section[name="content"].schedule thead {
+	background-color: #219ce8;
+	color: #ffffff;
+}
+
+section[name="content"].schedule thead td {
+	text-align: center;
+}
+
+section[name="content"].schedule tr td {
+	padding: 10px 40px;
+	font-size: 14px;
+}
+
+section[name="content"].schedule table tbody tr:nth-child(even) {
+	background-color: #f1faff;
+}
+
+section[name="content"].prizes hr {
+	border-color: #ffffff;
+}
+
+section[name="content"].prizes h2 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+section[name="content"].prizes span {
+	background-color: #ffffff;
+}
+
+section[name="content"].prizes p {
+	font-size: 18px;
+}
+
+section[name="content"].faq .qu {
+	padding-bottom: 5px;
+	color: #219ce8;
+}
+
+section[name="content"].apply .box {
+	background-color: #219ce8;
+	height: 330px;
+	padding: 70px 80px;
+	position: relative;
+	top: -110px;
+	margin-bottom: -90px;
+}
+
+section[name="content"].apply i {
+	font-size: 50px;
+	color: #ffffff;
+}
+
+section[name="content"].apply i.fi-heart {
+	position: relative;
+	right: 15px;
+	margin-bottom: -50px;
+}
+
+section[name="content"].apply i.fi-bookmark {
+	position: relative;
+	top: -80px;
+	left: 300px;
+	margin-bottom: -50px;
+}
+
+section[name="content"].apply .box p {
+	color: #ffffff;
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
+
+section[name="content"].apply .box .apply-btn {
+	padding: 15px 35px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px 5px rgba(2, 90, 133, 0.2);
+	border: 0px solid #ffffff;
+	transition: 0.3s;
+}
+
+section[name="content"].apply .box .apply-btn:hover {
+	border-left: 6px solid #ffffff;
+	border-right: 6px solid #ffffff;
+	transition: 0.3s;
+}
+
+section[name="footer"] {
+	background-color: #ecf0f1;
+	padding: 50px 0;
+	color: #6f7272;
+}
+
+section[name="footer"] ul {
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+section[name="footer"] li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+section[name="footer"] li a {
+	color: #6f7272 !important;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #ecf0f1;
+	transition: 0.3s;
+}
+
+section[name="footer"] li a:hover {
+	color: #474747;
+	border-bottom: 1px solid #474747;
+	transition: 0.3s;
+}
+
+@media only screen and (max-width: 64.0625em) {
+	
+	section[name="navigation"] .logo {
+		left: 2px;
+		top: 2px !important;
+	}
+	
+	section[name="navigation"] ul {
+		padding: 10px 25px;
+	}
+	
+	section[name="landing"].mobile .logo {
+		position: relative;
+		margin: auto;
+		top: -90px;
+		left: 0;
+		margin-bottom: -90px;
+	}
+	
+	section[name="landing"] .box .apply-btn {
+		margin-left: 0;
+	}
+		
+	section[name="content"].apply i.fi-heart {
+		right: 0;
+	}
+	
+	section[name="content"].apply .box {
+		padding-bottom: 40px;
+	}
+	
+	section[name="footer"] p {
+		text-align: center;
+	}
+	
+	section[name="footer"] ul {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+}
